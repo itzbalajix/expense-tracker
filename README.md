@@ -1,7 +1,22 @@
 # Ledger — Expense Tracker
 
-A modern and responsive Expense Tracker web application built using vanilla JavaScript, HTML, and CSS.  
+A modern and responsive Expense Tracker web application built using vanilla JavaScript, HTML, and CSS.
+
 Track your income and expenses, monitor your balance in real time, and store transactions locally in the browser using `localStorage`.
+
+---
+
+## 🌐 Live Demo
+
+https://expense-tracker-your-vercel-link.vercel.app
+
+---
+
+## 📸 Preview
+
+<img src="./screenshots/expense-tracker-SS1.png" width="100%" />
+<img src="./screenshots/expense-tracker-SS2.png" width="100%" />
+<img src="./screenshots/expense-tracker-SS3.png" width="100%" />
 
 ---
 
@@ -9,12 +24,13 @@ Track your income and expenses, monitor your balance in real time, and store tra
 
 - ➕ Add income and expense transactions
 - 🗑️ Delete transactions with smooth animations
-- 💰 Real-time balance, income, and expense calculations
+- 💰 Real-time balance calculation
+- 📊 Income and expense summaries
 - 📅 Formatted transaction dates using Day.js
-- 💾 Persistent storage using `localStorage`
-- 📱 Fully responsive modern UI
-- ⚡ Fast and lightweight — no frameworks used
-- 🎨 Clean modern design
+- 💾 Persistent data storage using `localStorage`
+- 📱 Fully responsive design
+- ⚡ Fast and lightweight
+- 🎨 Clean modern UI
 
 ---
 
@@ -27,23 +43,12 @@ Track your income and expenses, monitor your balance in real time, and store tra
 
 ---
 
-## 📸 Preview
-
-_Add screenshots or GIFs here after deployment_
-
-```md
-![App Screenshot](.)
-```
-
----
-## 🌐 Live Demo
-
-https://expense-tracker-liart-omega-97.vercel.app/
-
 ## 📂 Project Structure
 
 ```bash
-📦 ledger-expense-tracker
+📦 expense-tracker
+ ┣ 📂 screenshots
+ ┃ ┗ 📸 expense-tracker-SS1.png
  ┣ 📜 index.html
  ┣ 📜 expense-tracker.css
  ┣ 📜 expense-tracker.js
@@ -57,14 +62,14 @@ https://expense-tracker-liart-omega-97.vercel.app/
 The application:
 
 1. Takes user transaction input
-2. Stores transaction data as objects
-3. Saves data into browser `localStorage`
+2. Stores transactions as JavaScript objects
+3. Saves data in browser `localStorage`
 4. Dynamically updates:
    - Total Balance
    - Total Income
    - Total Expenses
    - Transaction History
-5. Reloads saved transactions automatically on refresh
+5. Automatically reloads saved transactions on refresh
 
 ---
 
@@ -105,13 +110,13 @@ Tested for:
 Clone the project:
 
 ```bash
-git clone https://github.com/your-username/ledger-expense-tracker.git
+git clone https://github.com/itzbalajix/expense-tracker.git
 ```
 
-Open the project folder:
+Go to the project directory:
 
 ```bash
-cd ledger-expense-tracker
+cd expense-tracker
 ```
 
 Run using VS Code Live Server  
